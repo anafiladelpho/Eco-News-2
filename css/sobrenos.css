@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    align-content: center;
+}
+
+body {
+    background-color: #4C533F;
+}
+
+.foot {
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#22361f; 
+    color: white; 
+    text-align: center;
+    padding: 5px;   
+    font-size: 20px;     
+}
+
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h3{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.9rem;
+    color: #fff;
+    font-size: 20px;
+    padding: 12px;  
+}
+
+.texto{
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 22px;
+    display: inline-block;
+    margin: 0 10px;
+    transition: 0.5s;   
+    padding: 8px;
+}
+
+.texto:hover {
+    transform: translateY(-10px);
+}
+
+.direito{
+    padding: 10px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+.img{
+    width: 450px;
+    margin-left: 35%;
+    justify-content: center;
+}
+
+.sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color:rgb(235, 235, 235);
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.h2{
+    font-size: 22px;
+    line-height: 1.3;
+    text-align: center;
+    display: block;
+    font-weight: 300; 
+    margin-bottom: 100px;
+    color: rgb(255, 255, 255);
+}
+
+
+.container {
+    position: fixed;
+    background-color: #3E4532;
+    top: 0;
+    width: 100%;
+    height: 130px;
+    padding-left: 60px;
+    padding-right: 60px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.304);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+ header ul {
+    display: flex;
+    padding-left: 0px;
+    list-style-type: none;
+    gap: 111px; 
+    align-items: center;
+}
+
+.container a {
+    text-decoration: none;
+    /* display: inline-flex; */
+    font-family: Poppins;
+    font-size: 25px;
+    color: #E7E19C;
+    line-height: 40px;
+}
+
+.header img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao {
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.304);
+    background-color: #4C533F;
+    color: #E7E19C;
+    text-decoration: none;
+    padding: 8px 10px;
+}

@@ -1,0 +1,399 @@
+* {
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+.background {
+    background-color: #3E4532;
+}
+
+.nav {
+    justify-content: center;
+    z-index: 1;
+}
+
+.nav {
+    position: fixed;
+    background-color: #3E4532;
+    top: 0;
+    width: 100%;
+    height: 130px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.304);
+}
+
+header .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+ header ul {
+    display: flex;
+    padding-left: 0px;
+    list-style-type: none;
+    gap: 111px; 
+    align-items: center;
+}
+
+.nav a {
+    text-decoration: none;
+    /* display: inline-flex; */
+    font-family: Poppins;
+    font-size: 25px;
+    color: #E7E19C;
+    line-height: 40px;
+}
+
+.header img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao {
+    border-radius: 15px;
+    margin: 80px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.304);
+    background-color: #4C533F;
+    color: #E7E19C;
+    text-decoration: none;
+    padding: 8px 10px;
+}
+
+
+.div1 {
+
+    background-image: url(./bannercopy.png);
+    width: 100%;
+    height: 700px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.margindiv1 {
+    margin: 0px 100px;
+}
+
+.div1logo {
+    display: flex; justify-content: center;
+}
+
+.div1 img{
+    z-index: 0;
+    margin: 0px;
+    max-width: 300px;
+    opacity: 0.8;
+}
+
+
+.div1txt {
+    color: #fafafa;
+    padding: 15px;
+}
+
+.div1txt h1 {
+    color: #D0E6A6;
+    font-size: 30px;
+    text-shadow: 5px 6px 14px black;
+}
+
+.div1txt p {
+    padding: 5px;
+    font-size: 25px;
+    background-color: rgb(62, 69, 50, 0.6) ;
+    border-radius: 15px;
+}
+
+.div1txt li a {
+    color: rgb(231, 225, 156, 1);
+    font-size: 35px;
+    padding: 5px;
+    background-color: rgb(57, 63, 45, 1);
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px black;
+    
+}
+
+.div1txt li a:hover {
+    color: rgb(231, 225, 156, 1);
+    font-size: 35px;
+    padding: 10px;
+    background-color: rgb(55, 64, 40);
+    transition: 500ms;
+    box-shadow: 2px 2px 20px 1px black;
+}
+
+.Carrosel {
+    border: #3E4532 solid 2px;
+    background-color: #3E4532;
+
+
+    padding: 015px;
+
+    max-width: 100%;
+    margin: 0 aut0;
+    color: #3E4532;
+}
+
+.margincarrosel {
+    margin: 0px 100px;
+}
+
+.notícias {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 35px;
+}
+
+.notícia {
+    border: #fafafa solid 1px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.notícia img {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.notícia>div {
+    padding: 10px;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+.notícia img {
+    width: 100%;
+}
+
+.Carrosel a {
+    color: #40673C;
+    display: flex;
+    justify-content: center;
+    transition: 0.5s;
+    font-style: italic;
+}
+
+.Carrosel a:hover {
+    color: #3E4532;
+    display: flex;
+    justify-content: center;
+    transform: translate(-10px);
+    font-style: italic;
+}
+
+.Carrosel h1 {
+    color: #D0E6A6;
+    text-align: center;
+
+}
+
+.Carrosel h1 {
+    text-align: center;
+}
+
+.backgroundsite {
+    background-color: #414933;
+}
+
+.sites {
+    margin: 0px 100px;
+    
+}
+
+.titulosite {
+    color: #D0E6A6;
+    text-align: center;
+    font-size: 20px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.logos img {
+    max-width: 150px;
+    margin: 20px 10px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px 1px black;
+}
+
+.aguanot{
+    background-color: #fcfdf1;
+}
+
+.aguamargin {
+    margin: 0px 100px;
+}
+
+.aguaimg img {
+    width: 100%;
+    height: 250px;
+}
+
+.aguadireito {
+    width: 850px;
+    width: 0px 500px;
+}
+
+.aguadireito h1 {
+    color: #3E4532;
+}
+
+.aguadireito p{
+    color: #40673C;
+}
+
+.aguaflex {
+    display: flex;
+    justify-content: center;
+}
+
+.aguaesquerdo {
+    display: flex;
+    align-items: center;
+    margin: 0px 50px;
+}
+
+.aguaesquerdo a {
+    color: rgb(231, 225, 156, 1);
+    font-size: 20px;
+    padding: 5px;
+    background-color: rgb(57, 63, 45, 1);
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aguaesquerdo a:hover {
+    color: rgb(231, 225, 156, 1);
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(55, 64, 40);
+    transition: 500ms;
+    box-shadow: 2px 2px 20px 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.doe {
+    margin: 0px 0px 0px 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.doetxt h1{
+    color: #D0E6A6;
+    font-size: 45px;
+    margin: 50px 0px 0px 0px;
+    
+}
+
+.doetxt p{
+    color: #fafafa;
+    font-size: 30px;
+}
+
+.doetxt li a{
+    color: rgb(231, 225, 156, 1);
+    font-size: 30px;
+    padding: 5px;
+    background-color: rgb(57, 63, 45, 1);
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+.doetxt li a:hover {
+    color: rgb(231, 225, 156, 1);
+    font-size: 30px;
+    padding: 10px;
+    background-color: rgb(55, 64, 40);
+    transition: 500ms;
+    box-shadow: 2px 2px 20px 1px black;
+}
+
+
+.doeback {
+    background-color: #3E4532;
+    height: 432px;
+}
+.esquedo {
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.esquedo {
+    height: 100%;
+}
+
+.footer {
+    background-color: #313629;
+    font-size: 25px; 
+    width: 100%;
+    text-align: center;
+    font-family: poppins;
+ } 
+ 
+ 
+ .menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .footer h3{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform:capitalize;
+    line-height: 1.5rem;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 12px;
+ }
+ 
+ .texto{
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 22px;
+    display: inline-block;
+    margin: 0 10px;
+    transition: 0.5s;   
+    padding: 8px;
+ } 
+ 
+ .texto:hover {
+    transform: translateY(-10px);
+ }
+ 
+ .direito{
+    padding: 10px;
+    margin-top: 10px;
+    text-transform: capitalize;
+ }
+ 
+ 
+ .footer a {
+    text-decoration:underline;
+    color:#fff;
+ }
+ 
+ .footer p {
+    color: #FFF;
+} 

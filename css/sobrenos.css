@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #4C533F;
+    background: linear-gradient(14deg, #FFF -10.65%, #EFEFEF 75.89%, #5F5F5F 126.37%);
 }
 
 .foot {
@@ -52,39 +52,12 @@ body {
 .texto:hover {
     transform: translateY(-10px);
 }
-
+/* 
 .direito{
     padding: 10px;
     margin-top: 10px;
     text-transform: capitalize;
-}
-
-.img{
-    width: 450px;
-    margin-left: 35%;
-    justify-content: center;
-}
-
-.sobre{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background-color:rgb(235, 235, 235);
-    flex-direction: column;
-    font-family: sans-serif;
-}
-
-.h2{
-    font-size: 22px;
-    line-height: 1.3;
-    text-align: center;
-    display: block;
-    font-weight: 300; 
-    margin-bottom: 100px;
-    color: rgb(255, 255, 255);
-}
-
+} */
 
 .container {
     position: fixed;

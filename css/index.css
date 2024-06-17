@@ -4,6 +4,11 @@
     list-style: none;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 
 :root {
     --spacing-0: 0px;
@@ -29,7 +34,6 @@
     top: 0;
     width: 100%;
     height: 130px;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.304);
 }
 
 header .nav {
@@ -37,37 +41,42 @@ header .nav {
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    transition-timing-function: linear;
 }
 
  header ul {
     display: flex;
-    padding-left: 0px;
+    margin-left: 11rem;
     list-style-type: none;
-    gap: 111px; 
+    gap: 50px; 
     align-items: center;
+}
+
+header img { 
+   margin-left: 40px;
+}
+
+header a:hover {
+    transition:  ease-in;
+    color: #b1b0b0;
 }
 
 .nav a {
     text-decoration: none;
     /* display: inline-flex; */
     font-family: Poppins;
-    font-size: 25px;
-    color: #E7E19C;
+    font-size: 20px;
+    color: white;
     line-height: 40px;
 }
 
-.header img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .botao {
     border-radius: 15px;
     margin: 80px;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.304);
-    background-color: #4C533F;
-    color: #E7E19C;
+    background-color: #505842;
     text-decoration: none;
     padding: 8px 10px;
 }
@@ -80,6 +89,7 @@ header .nav {
     height: 700px;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    
 }
 
 .margindiv1 {
@@ -94,7 +104,6 @@ header .nav {
     z-index: 0;
     margin: 0px;
     max-width: 400px;
-    opacity: 0.9;
 }
 
 
@@ -104,8 +113,7 @@ header .nav {
 }
 
 .div1txt h1 {
-    color: #D0E6A6;
-    font-size: 30px;
+    color: #ffffff;
     text-shadow: 5px 6px 14px black;
 }
 
@@ -114,17 +122,20 @@ header .nav {
     font-size: 25px;
     background-color: rgb(62, 69, 50, 0.6) ;
     border-radius: 15px;
+    color:#ffffff ;
 }
 
-.div1txt li a {
+.div1txt  a {
     color: rgb(231, 225, 156, 1);
-    font-size: 35px;
-    padding: 5px;
+    font-size: 20px;
+    padding: 8px;
     background-color: rgb(57, 63, 45, 1);
     border-radius: 20px;
     box-shadow: 1px 1px 1px 1px black;
     
 }
+
+
 
 .div1txt li a:hover {
     color: rgb(231, 225, 156, 1);
@@ -210,7 +221,8 @@ li {
 }
 
 .backgroundsite {
-    background-color: #414933;
+    background-color: rgb(62, 69, 50);
+    margin: 10rem;
 }
 
 .sites {
@@ -228,6 +240,7 @@ li {
     display: flex;
     justify-content: center;
     justify-content: space-around;
+    
 }
 
 .logos img {
@@ -266,6 +279,7 @@ li {
 .aguaflex {
     display: flex;
     justify-content: center;
+    padding: 10rem;
 }
 
 .aguaesquerdo {

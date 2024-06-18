@@ -31,7 +31,7 @@ header .container {
 
 header ul {
     display: flex;
-    padding-left: 100px;
+    padding-left: 75px;
     list-style-type: none;
     gap: 40px;
     /* align-items: center; */

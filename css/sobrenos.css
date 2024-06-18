@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -42,8 +41,12 @@ header ul {
     /* display: inline-flex; */
     font-family: Poppins;
     font-size: 25px;
-    color: #E7E19C;
+    color: white;
     line-height: 40px;
+}
+
+.container a:hover {
+    color: #b1b0b0;
 }
 
 .header img {
@@ -98,8 +101,8 @@ header ul {
 
 
 .align {
-    display: flex; 
-    align-items: center; 
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
@@ -108,7 +111,8 @@ header ul {
     justify-content: space-between;
 }
 
-.quadrados {gap: 16px;
+.quadrados {
+    gap: 16px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -117,21 +121,24 @@ header ul {
 
 .pilastra1 {
     border-radius: 40px 0px 0px 40px;
-    background-color: #D0E6A6; 
-    width: 600px; height: 65px;
+    background-color: #D0E6A6;
+    width: 600px;
+    height: 65px;
 }
 
 .pilastra2 {
     border-radius: 40px 0px 0px 40px;
-    background-color: #4C533F; 
-    width: 530px; height: 65px;
+    background-color: #4C533F;
+    width: 530px;
+    height: 65px;
     margin-left: 0px;
 }
 
 .pilastra3 {
     border-radius: 40px 0px 0px 40px;
-    background-color: #D0E6A6; 
-    width: 450px; height: 65px;
+    background-color: #D0E6A6;
+    width: 450px;
+    height: 65px;
 }
 
 .canto {
@@ -142,7 +149,8 @@ header ul {
 .aligntxt {
     margin-bottom: 50px;
     display: flex;
-    align-items: center; justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .texto2 {
@@ -152,90 +160,94 @@ header ul {
     font-size: 55px;
     text-align: center;
     color: #3E4532;
-    
+
 }
 
 .pilastra4 {
     border-radius: 40px 40px 0px 0px;
-    background-color: #3E4532; 
-    width: 65px; height: 600px;
+    background-color: #3E4532;
+    width: 65px;
+    height: 600px;
 }
 
 .pilastra5 {
     border-radius: 40px 40px 0px 0px;
-    background-color: #D0E6A6; 
-    width: 65px; height: 530px;
+    background-color: #D0E6A6;
+    width: 65px;
+    height: 530px;
 }
 
 .pilastra6 {
     border-radius: 40px 40px 0px 0px;
-    background-color: #3E4532; 
-    width: 65px; height: 450px;
+    background-color: #3E4532;
+    width: 65px;
+    height: 450px;
 }
 
 .quadrados2 {
     margin-left: 50px;
-   display: flex; gap: 16px;
+    display: flex;
+    gap: 16px;
 }
 
 .canto2 {
-    display: flex; align-items: end;
+    display: flex;
+    align-items: end;
 }
 
 .footer {
     background-color: #313629;
-    font-size: 25px; 
+    font-size: 25px;
     width: 100%;
     text-align: center;
     font-family: poppins;
- } 
- 
- 
- .menu{
+}
+
+
+.menu {
     display: flex;
     align-items: center;
     justify-content: center;
- }
- 
- .footer h3{
+}
+
+.footer h3 {
     text-align: center;
     font-size: 1.8rem;
     font-weight: 400;
-    text-transform:capitalize;
+    text-transform: capitalize;
     line-height: 1.5rem;
     color: #ffffff;
     font-size: 25px;
     padding: 12px;
- }
- 
- .texto{
+}
+
+.texto {
     color: #fff;
     margin-bottom: 5px;
     font-size: 22px;
     display: inline-block;
     margin: 0 10px;
-    transition: 0.5s;   
+    transition: 0.5s;
     padding: 8px;
- } 
- 
- .texto:hover {
+}
+
+.texto:hover {
     transform: translateY(-10px);
- }
- 
- .direito{
+}
+
+.direito {
     padding: 10px;
     margin-top: 10px;
     text-transform: capitalize;
- }
- 
- 
- .footer a {
-    text-decoration:underline;
-    color:#fff;
- }
- 
- .footer p {
+}
+
+
+.footer a {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.footer p {
     margin-bottom: 0px;
     color: #FFF;
-} 
-
+}

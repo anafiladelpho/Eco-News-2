@@ -161,13 +161,15 @@ header .container {
 }
 
 .gradient-box a {
-    color: black;
+    margin-bottom: 500px;
+    color: rgb(24, 150, 31);
     font-size: 22px;
     list-style-type: none;
     text-align: center;
     text-decoration: none;
     font-family: poppins;
 } 
+
 
 .navbar h1 {
     width: 1344px;

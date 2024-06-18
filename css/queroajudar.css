@@ -84,8 +84,17 @@ header .container {
     /* display: inline-flex; */
     font-family: Poppins;
     font-size: 25px;
-    color: #E7E19C;
+    color: white;
     line-height: 40px;
+}
+
+.container a:hover {
+  text-decoration: none;
+  /* display: inline-flex; */
+  font-family: Poppins;
+  font-size: 25px;
+  color: #b1b0b0;
+  line-height: 40px;
 }
 
 .header img {

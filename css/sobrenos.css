@@ -1,5 +1,5 @@
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -89,11 +89,13 @@ header ul {
 }
 
 .img__logo {
-    width: 630px;
-    height: 630px;
+    width: 700px;
+
+    height: 700px;
     flex-shrink: -0;
     margin-top: 2px;
 }
+
 
 .align {
     display: flex; 
@@ -135,5 +137,48 @@ header ul {
 .canto {
     display: flex;
     justify-content: end;
+}
+
+.aligntxt {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center; justify-content: center;
+}
+
+.texto{
+    width: 1500px;
+    font-family: Poppins;
+    line-height: 50px;
+    font-size: 55px;
+    text-align: center;
+    color: #3E4532;
+    
+}
+
+.pilastra4 {
+    border-radius: 40px 40px 0px 0px;
+    background-color: #3E4532; 
+    width: 65px; height: 600px;
+}
+
+.pilastra5 {
+    border-radius: 40px 40px 0px 0px;
+    background-color: #D0E6A6; 
+    width: 65px; height: 530px;
+}
+
+.pilastra6 {
+    border-radius: 40px 40px 0px 0px;
+    background-color: #3E4532; 
+    width: 65px; height: 450px;
+}
+
+.quadrados2 {
+    margin-left: 50px;
+   display: flex; gap: 16px;
+}
+
+.canto2 {
+    display: flex; align-items: end;
 }
 

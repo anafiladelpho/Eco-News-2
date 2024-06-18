@@ -59,7 +59,7 @@ body{
 
 .container{
     
-    height: 1500px;
+    height: 1250px;
     margin: 0px 400px 0px 400px;
     background-color: #3E4532;
     
@@ -142,8 +142,17 @@ header .nav {
     /* display: inline-flex; */
     font-family: Poppins;
     font-size: 25px;
-    color: #E7E19C;
+    color: white;
     line-height: 40px;
+}
+
+.nav a:hover {
+  text-decoration: none;
+  /* display: inline-flex; */
+  font-family: Poppins;
+  font-size: 25px;
+  color: #b1b0b0;
+  line-height: 40px;
 }
 
 .nav img{
@@ -167,7 +176,9 @@ header .nav {
     padding: 8px 10px;
 }
 
-
+.isso {
+  display: flex; align-items: end;
+}
 
 .footer {
     background-color: #313629;
@@ -175,6 +186,7 @@ header .nav {
     width: 100%;
     text-align: center;
     font-family: poppins;
+    display: flex; flex-direction: column; 
  } 
  
  
